@@ -8,7 +8,8 @@
     display: flex;
     width: 100%;
     height: 45%;
-    padding: 8px 0px;
+    justify-content: space-around;
+    padding: 0px 0px;
 }
 
 .image_demo{
@@ -17,11 +18,8 @@
 
 .image_demo img{
     width: 100%;
-    padding-right: 8px;
     height: 100%;
-    margin-right: 10px;
     border-radius: 20px;
-    margin-right: 5px;
     height: 800px;
 }
 
@@ -29,7 +27,6 @@
 .text{
     background-color: #F4F0EA;
     width: 49.5%;
-    margin-left: 5px;
     border-radius: 20px;
     height: 800px;
 }
